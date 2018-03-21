@@ -1,0 +1,26 @@
+# TWELITEアプリについて
+
+- ひとまずTWELITE標準アプリ(App_Twelite)を想定して設計。
+
+
+## TWELITE標準アプリ(App_Twelite)
+
+https://mono-wireless.com/jp/products/TWE-APPS/App_Twelite/index.html
+
+
+### 特徴
+
+- デフォルトでインストールされているアプリ
+- 送信間隔を設定しての自動送信が可能
+
+## 無線タグアプリ(App_Tag)
+
+https://mono-wireless.com/jp/products/TWE-APPS/App_Tag/index.html
+
+### 特徴
+
+- 標準アプリと比較して省電力らしい
+- エナジーハーベスト用のモジュールが利用可能
+- 押ボタンモードでは、自動送信が不可
+
+
