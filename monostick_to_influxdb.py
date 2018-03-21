@@ -30,9 +30,7 @@ config.read('./monostick_to_influxdb.ini') # パラメータ読み出し
 # 受信データのHTTP送信
 def sendHTTPRequest(l):
 
-    #url = 'http://52.243.42.47:8086/write'
     url = config['influxdb']['url'] + ':' + config['influxdb']['port'] + '/write'
-    # payload = {'db': 'door_sensor'} # データベース名
     payload = {'db': config['influxdb']['db_name']} # データベース名
     # measurement_name = 'meeting_rooms' # テーブル名
 
