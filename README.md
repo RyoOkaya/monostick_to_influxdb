@@ -28,19 +28,28 @@ https://mono-wireless.com/jp/products/MoNoStick/index.html
 https://mono-wireless.com/jp/products/TWE-APPS/App_Twelite/python_twelite/index.html
 
 ### 実行要件
+
+- 事前準備
+「monostick_to_influxdb_templete.ini」ファイルを書き換えて、
+「monostick_to_influxdb.ini」ファイルを作成してください。
+
 - Python3系のみ対応。Python2系には非対応。
 - 下記のコマンドで、関連モジュールをインストールしておく
+
 `pip install pyserial # シリアル通信用ライブラリ`  
 `pip install requests # HTTP通信用ライブラリ`  
 ※ 実行にはOSの管理者権限が必要  
 
 ### 実行方法
 - pythonコマンド等で実行する
+
 `python monostick_to_influxdb.py [Device Name]`  
+
 - 実行例(Windowsの場合):  
+
 `python monostick_to_influxdb.py COM4`
 
-[出力例]
+### 出力例
 
 <pre>
 open serial port: COM3
@@ -83,7 +92,8 @@ monostick_to_influxdb.iniファイルで、下記のパラメータを設定できます。
 https://mono-wireless.com/jp/products/TWE-Lite-DIP/index.html
 - MONOSTICK  
 https://mono-wireless.com/jp/products/MoNoStick/index.html
-- InflaxDBサーバ
+- InfluxDB
+https://www.influxdata.com/
 
 
 
